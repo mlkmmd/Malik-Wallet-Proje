@@ -57,7 +57,7 @@ const TagSelector = ({ allTags, selectedTags, onChange }) => {
           placeholder="Add a new tag"
         />
         <button type="button" onClick={handleAddTag}>
-          Ajouter
+          Add
         </button>
       </div>
     </div>
