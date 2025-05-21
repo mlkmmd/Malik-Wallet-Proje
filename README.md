@@ -17,10 +17,7 @@ Une application de bureau pour sauvegarder et organiser des fragments de code.
 - Node.js (v14 ou supérieur)
 - npm (v6 ou supérieur)
 
-### Installation
-
-1. Clonez le dépôt :
+### Lancement de l'application
+Pour lancer l'application en mode développement :
 ```bash
-git clone https://github.com/mlkmmd/Malik-Wallet-Proje.git
-
-cd code-wallet
+npm run dev
