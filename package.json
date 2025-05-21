@@ -1,0 +1,42 @@
+{
+  "name": "code-wallet",
+  "version": "1.0.0",
+  "description": "Une application de bureau pour sauvegarder et organiser des fragments de code",
+  "author": "Malik MAHAMMED",
+  "license": "MIT",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^25.0.0",
+    "electron-builder": "^24.4.0",
+    "vite": "^4.3.9",
+    "vite-plugin-electron": "^0.11.2",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "build": {
+    "appId": "com.everydaydev.codewallet",
+    "productName": "Code Wallet",
+    "directories": {
+      "output": "release"
+    },
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
