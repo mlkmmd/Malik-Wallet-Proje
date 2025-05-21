@@ -1,0 +1,16 @@
+.tag-modal {
+  background-color: var(--color-background);
+  border-radius: var(--border-radius);
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tag-modal form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
