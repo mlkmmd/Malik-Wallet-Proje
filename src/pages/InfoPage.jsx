@@ -39,20 +39,18 @@ const InfoPage = () => {
         <p>
           Code Wallet was developed by Malik MAHAMMED as part of the EverydayDev project, a startup focused on creating tools for developers.
         </p>
-        <p>Team: Albertine (Director), Joanne (Commercial), and our Development Team.</p>
+        <p>Team: Albertine (Director), Joanne (Commercial), and Malik ( Developer). </p>
       </section>
 
       <section>
         <h2>Legal Information</h2>
         <p>
-          Code Wallet collects anonymized usage data to improve the application. This data may be shared with third
-          parties for AI model training purposes.
+          Code Wallet collects anonymized usage data to improve the application.
         </p>
         <p>
-          By using Code Wallet, you agree to our data collection practices. No personal information is collected or
-          stored.
+          By using Code Wallet, you agree to our data collection practices. No personal information is collected or stored.
         </p>
-        <p>© 2023 EverydayDev. All rights reserved.</p>
+        <p>© 2025 EverydayDev. All rights reserved.</p>
       </section>
     </div>
   )
