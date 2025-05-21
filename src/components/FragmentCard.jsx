@@ -34,7 +34,7 @@ const FragmentCard = ({ fragment, tags, onViewCode }) => {
           onViewCode()
         }}
       >
-        <span role="img" aria-label="Voir le Code">
+        <span role="img" aria-label="View Code">
           👁️
         </span>
       </button>
