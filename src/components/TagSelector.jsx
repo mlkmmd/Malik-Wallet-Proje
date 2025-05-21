@@ -54,7 +54,7 @@ const TagSelector = ({ allTags, selectedTags, onChange }) => {
           value={newTagName}
           onChange={(e) => setNewTagName(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Ajouter un nouveau tag"
+          placeholder="Add a new tag"
         />
         <button type="button" onClick={handleAddTag}>
           Ajouter
