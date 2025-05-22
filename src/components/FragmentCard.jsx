@@ -34,7 +34,11 @@ const FragmentCard = ({ fragment, tags, onViewCode }) => {
           onViewCode()
         }}
       >
+<<<<<<< HEAD
         <span role="img" aria-label="View code">
+=======
+        <span role="img" aria-label="View Code">
+>>>>>>> 02a886c8639dc6443f31f07ed123bb0872581b50
           👁️
         </span>
       </button>

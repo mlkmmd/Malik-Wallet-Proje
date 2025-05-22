@@ -39,7 +39,11 @@ const InfoPage = () => {
         <p>
           Code Wallet was developed by Malik MAHAMMED as part of the EverydayDev project, a startup focused on creating tools for developers.
         </p>
+<<<<<<< HEAD
         <p>Team: Albertine (Director), Joanne (Commercial), and Malik (Developer). </p>
+=======
+        <p>Team: Albertine (Director), Joanne (Commercial), and Malik ( Developer). </p>
+>>>>>>> 02a886c8639dc6443f31f07ed123bb0872581b50
       </section>
 
       <section>
