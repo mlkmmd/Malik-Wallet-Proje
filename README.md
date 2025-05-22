@@ -22,5 +22,16 @@ Une application de bureau pour sauvegarder et organiser des fragments de code.
 1. Clonez le dépôt :
 ```bash
 git clone https://github.com/mlkmmd/Malik-Wallet-Proje.git
+cd Malik-Wallet-Proje
 
-cd code-wallet
+2. Installez les dépendances
+
+npm install
+
+3. Démarrez le serveur de développement
+
+npm run dev
+
+4. Pour construire l'application pour la production
+
+npm run build

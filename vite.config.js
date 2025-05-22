@@ -6,6 +6,7 @@ import { resolve } from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './', // Ceci est important pour les chemins relatifs
   plugins: [
     react(),
     electron([

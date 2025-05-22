@@ -9,7 +9,7 @@ const CodeModal = ({ fragment, onClose }) => {
 
   const handleCopy = async () => {
     await copyToClipboard(fragment.code)
-    alert("Code copié dans le presse-papier !")
+    alert("Code copied to clipboard !")
   }
 
   // Fermer la modale en cliquant à l'extérieur ou en appuyant sur Échap

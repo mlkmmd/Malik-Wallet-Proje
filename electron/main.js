@@ -21,6 +21,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
+      webSecurity: false
     },
     icon: path.join(__dirname, "../resources/icon.png"),
   })
@@ -32,7 +33,12 @@ function createWindow() {
     mainWindow.webContents.openDevTools()
   } else {
     // En production, on charge le fichier HTML compilé
-    mainWindow.loadFile(path.join(__dirname, "../dist/index.html"))
+    // Utiliser le chemin absolu pour être sûr
+    const indexPath = path.join(__dirname, "..", "dist", "index.html")
+    mainWindow.loadFile(indexPath)
+    
+    // Pour déboguer en production, décommentez cette ligne
+    // mainWindow.webContents.openDevTools()
   }
 }
 

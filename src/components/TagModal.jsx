@@ -21,7 +21,7 @@ const TagModal = ({ tag, onClose }) => {
     e.preventDefault()
 
     if (!tagName.trim()) {
-      alert("Le nom du tag est obligatoire !")
+      alert("Tag name is required!")
       return
     }
 
@@ -36,7 +36,7 @@ const TagModal = ({ tag, onClose }) => {
 
   // Gérer la suppression d'un tag
   const handleDelete = () => {
-    if (window.confirm("Êtes-vous sûr de vouloir supprimer ce tag ?")) {
+    if (window.confirm("Are you sure you want to delete this tag ?")) {
       deleteTag(tag.id)
       onClose()
     }
@@ -67,7 +67,7 @@ const TagModal = ({ tag, onClose }) => {
     <div className="modal-overlay">
       <div className="tag-modal">
         <div className="modal-header">
-          <h2>{isEditing ? "Modifier le Tag" : "Nouveau Tag"}</h2>
+          <h2>{isEditing ? "Edit Tag" : "New Tag"}</h2>
           <button className="close-button" onClick={onClose}>
             ✕
           </button>
@@ -75,13 +75,13 @@ const TagModal = ({ tag, onClose }) => {
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="tagName">Nom du Tag</label>
+            <label htmlFor="tagName">Tag Name</label>
             <input
               type="text"
               id="tagName"
               value={tagName}
               onChange={(e) => setTagName(e.target.value)}
-              placeholder="Entrez le nom du tag"
+              placeholder="Enter the tag name"
               autoFocus
               required
             />
@@ -89,12 +89,12 @@ const TagModal = ({ tag, onClose }) => {
 
           <div className="form-actions">
             <button type="submit" className="save-button">
-              {isEditing ? "Mettre à jour" : "Créer"}
+              {isEditing ? "Update" : "Create"}
             </button>
 
             {isEditing && (
               <button type="button" className="delete-button" onClick={handleDelete}>
-                Supprimer
+                Delete
               </button>
             )}
           </div>
