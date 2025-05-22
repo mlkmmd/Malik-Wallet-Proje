@@ -17,7 +17,6 @@ Une application de bureau pour sauvegarder et organiser des fragments de code.
 - Node.js (v14 ou supérieur)
 - npm (v6 ou supérieur)
 
-<<<<<<< HEAD
 ### Installation
 
 1. Clonez le dépôt :
@@ -25,20 +24,14 @@ Une application de bureau pour sauvegarder et organiser des fragments de code.
 git clone https://github.com/mlkmmd/Malik-Wallet-Proje.git
 cd Malik-Wallet-Proje
 
-2. Installez les dépendances
+### Installez les dépendances
 
 npm install
 
-3. Démarrez le serveur de développement
+### Démarrez le serveur de développement
 
 npm run dev
 
-4. Pour construire l'application pour la production
+### Pour construire l'application pour la production
 
 npm run build
-=======
-### Lancement de l'application
-Pour lancer l'application en mode développement :
-```bash
-npm run dev
->>>>>>> 02a886c8639dc6443f31f07ed123bb0872581b50
